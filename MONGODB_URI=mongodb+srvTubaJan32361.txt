@@ -1,0 +1,22 @@
+MONGODB_URI="mongodb+srv://TubaJan:32361055mongodb@mongocluster.2txpy05.mongodb.net/HijabiStyles?retryWrites=true&w=majority"
+JWT_SECRET="qwertyuiop234567890@$%^&-sdfghjkrtyuixcfgvbh"
+PORT="2525"
+EMAIL_USER="bushrajantubajan@gmail.com"
+EMAIL_PASS="ispa hwym xvzr gxji"
+FRONTEND_URL="hackathon-4jv6.vercel.app"
+CLOUDINARY_CLOUD_NAME="dzq61zzxb"
+CLOUDINARY_API_KEY="252847669271336"
+CLOUDINARY_SECRET_KEY="lG4s1E9oXD6N7-CwzUse-WErqoA"
+
+
+name: Tuba Jan
+rollNo:260625
+Internship-3 months (BFFP) Frontend
+Internship-3 months (ACSHR) Frontend/Firebase
+Outsource Project: ASCHR live https://acshr.org.pk/
+proof: given Bellow
+
+
+malikibrarnaeem0987654@gmail.com 
+password:- ibrar1234
+

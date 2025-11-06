@@ -1,0 +1,48 @@
+Here are the ASCII values for alphabets:
+
+
+A - Z: 65 - 90
+
+
+Some key values:
+
+
+A = 65
+B = 66
+...
+Z = 90
+
+
+And for lowercase letters:
+
+
+a - z: 97 - 122
+
+
+Some key values:
+
+
+a = 97
+b = 98
+...
+z = 122
+
+
+For numbers:
+
+
+0 - 9: 48 - 57
+
+
+Some key values:
+
+
+0 = 48
+1 = 49
+...
+9 = 57
+
+
+Would you like to know how to apply ASCII values in a JavaScript project or function?
+
+https://bit.ly/4d3wYbi

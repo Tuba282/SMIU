@@ -1,0 +1,330 @@
+//-----------------------------------------------------------
+Topics:
+cartesian product
+Limit
+Limit of function continuity
+composite function
+inverse function
+horizontal line test
+vertical line test
+binary relation
+derivatives
+Leibniz theorem
+function 4 representing ways (verbal, numerical, graphical, algebraic)
+function types: 1-1 function, onto, bijective, into
+Equation types: linear equation, non-linear equation
+set
+piecewise defined function / continuity function
+//-----------------------------------------------------------
+
+// ✅ SECTION 1: FILL IN THE BLANKS (5)
+
+1. The Cartesian product of two sets (A) and (B) is denoted by ________ and 
+contains all ordered pairs (a, b) such that a ∈ A and b ∈ B.
+2. A function f(x) is said to be continuous at 
+x = a if lim(x → a⁻) f(x) = lim(x → a⁺) f(x) = ________.
+3. If f(g(x)) is defined, then the function obtained by
+ applying g first and then f is called the ________ function.
+4. A function that has an inverse must be both ________ and ________.
+5. A function defined by different formulas in different
+- intervals is called a ________ function.
+
+--- ANSWERS (Fill in the Blanks) ---
+1. A × B
+2. f(a)
+3. Composite
+4. One–one (injective) and Onto (surjective)
+5. Piecewise defined
+
+
+// ✅ SECTION 2: MULTIPLE CHOICE QUESTIONS (MCQs) (5)
+
+1. Which of the following represents a 1–1 function?
+   a) f(x) = x²
+   b) f(x) = |x|
+   c) f(x) = 2x + 3  ✔️
+   d) f(x) = x³ – x
+
+2. If lim(x → 0) (sin x / x) exists, its value is:
+   a) 0
+   b) 1 ✔️✅
+   c) ∞
+   d) Undefined
+
+3. The horizontal line test is used to check whether a function is:
+   a) One–one    ✔️❌
+   b) Onto
+   c) Invertible   ✔️✅
+   d) Constant
+
+4. Which of the following equations is non-linear?
+   a) 3x + 4y = 7
+   b) x² + y² = 9  ✔️✅
+   c) 5x + 2 = 0
+   d) 2x – 3y = 6
+
+5. If a function f(x) = x³, then f′(x) using derivative rules is:
+   a) 3x² ✔️✅
+   b) x²
+   c) 2x
+   d) 3x
+
+--- ANSWERS (MCQs) ---
+1. c) f(x) = 2x + 3
+2. b) 1
+3. c) Invertible
+4. b) x² + y² = 9
+5. a) 3x²
+
+
+// ✅ SECTION 3: TRUE / FALSE (5)
+
+1. Every continuous function is also differentiable. ________
+2. The vertical line test determines whether a graph represents a function. ________
+3. A bijective function is both one–one and onto. ________
+4. The derivative of a constant function is zero. ________
+5. Leibniz’s theorem gives the formula for the nth derivative of a product of two functions. ________
+
+--- ANSWERS (True / False) ---
+1. False
+2. True
+3. True
+4. True
+5. True
+
+-----------------------------------------------------------
+------------------------------------------------------------
+TOPICS QUIZ: FUNCTIONS & CALCULUS BASICS
+------------------------------------------------------------
+
+✅ SECTION 1: FILL IN THE BLANKS (30)
+
+1. The Cartesian product of two sets A and B is written as ________.
+2. If A = {1, 2} and B = {x, y}, then A × B = ________.
+3. The value of a function as x approaches a certain point is called its ________.
+4. A function is said to be continuous if it has no ________.
+5. The limit of sin(x)/x as x → 0 is ____1____.
+6. A function that maps each input to exactly one output is called a ________ function.
+7. The composite function of f and g is written as ________.
+8. If f(x) = 2x + 1, then its inverse is ________.
+9. The horizontal line test is used to check if a function is ________.
+10. The vertical line test is used to check if a graph represents a ________.
+11. A binary relation on a set A is a subset of ________.
+12. The derivative of x² is ________.
+13. The derivative of sin(x) is ________.
+14. The Leibniz theorem is related to the nth derivative of ________.
+15. A function can be represented in ________, ________, ________, and ________ forms.
+16. A 1–1 function is also called an ________ function.
+17. A function is onto if its range = ________.
+18. A function that is both one-one and onto is called ________.
+19. The equation y = 2x + 3 is a ________ equation.
+20. A non-linear equation has a degree ________ than 1.
+21. A univariate equation has ________ variable.
+22. A bivariate equation has ________ variables.
+23. A multivariate equation has ________ variables.
+24. The set containing no elements is called a ________ set.
+25. A piecewise defined function is defined by different ________ for different intervals.
+26. A continuous function has no ________ or ________.
+27. The derivative of eˣ is ________.
+28. The product rule of derivatives is given by (uv)' = ________.
+29. If f(x) = x³, then f'(x) = ________.
+30. If f(x) = |x|, then f(x) is not differentiable at ________.
+
+--- ANSWERS (FILL IN THE BLANKS) ---
+1. A × B
+2. {(1, x), (1, y), (2, x), (2, y)}
+3. Limit
+4. Breaks or jumps
+5. 1
+6. Function
+7. (f ∘ g)(x)
+8. (x − 1)/2
+9. One–one (injective)
+10. Function
+11. A × A
+12. 2x
+13. cos(x)
+14. Product of two functions
+15. Verbal, Numerical, Graphical, Algebraic
+16. Injective
+17. Codomain
+18. Bijective
+19. Linear
+20. Greater
+21. One
+22. Two
+23. More than two
+24. Empty (Null)
+25. Expressions
+26. Breaks or gaps
+27. eˣ
+28. u′v + uv′
+29. 3x²
+30. x = 0
+
+
+------------------------------------------------------------
+✅ SECTION 2: MULTIPLE CHOICE QUESTIONS (30)
+------------------------------------------------------------
+
+1. If A = {1, 2} and B = {a, b}, then A × B has:
+   a) 2 elements   b) 4 elements   c) 1 element   d) 6 elements
+2. Limit of (3x + 2) as x → 2 is:
+   a) 5   b) 6   c) 8   d) 10
+3. A function is continuous if it has:
+   a) Breaks   b) No jumps   c) Undefined points   d) All of these
+4. Composite function (f ∘ g)(x) means:
+   a) f(x) × g(x)   b) f(x) + g(x)   c) f(g(x))   d) g(f(x))
+5. Inverse of y = 3x − 2 is:
+   a) y = 3x + 2   b) y = (x + 2)/3   c) y = (x − 2)/3   d) y = 2x − 3
+6. Vertical line test determines if:
+   a) Graph is function   b) Function is 1–1   c) Function is onto   d) Function is inverse
+7. Horizontal line test determines if function is:
+   a) Onto   b) One–one   c) Continuous   d) Composite
+8. Binary relation on A is subset of:
+   a) A   b) A × A   c) A × B   d) B × B
+9. Derivative of x³ is:
+   a) x²   b) 2x   c) 3x²   d) 4x³
+10. Derivative of cos(x) is:
+    a) sin(x)   b) −sin(x)   c) cos(x)   d) −cos(x)
+11. Leibniz theorem applies to:
+    a) nth integral   b) nth derivative   c) nth term   d) nth function
+12. Function can be represented:
+    a) Verbally only   b) Graphically only   c) In 4 ways   d) Numerically only
+13. A function with unique output for each input is:
+    a) Many–one   b) One–one   c) Onto   d) Constant
+14. Range = Codomain means function is:
+    a) One–one   b) Onto   c) Into   d) Bijective
+15. Bijective = ?
+    a) 1–1   b) Onto   c) Both a & b   d) None
+16. Linear equation has degree:
+    a) 0   b) 1   c) 2   d) 3
+17. Non-linear equation has degree:
+    a) 0   b) 1   c) >1   d) <1
+18. Equation with one variable:
+    a) Bivariate   b) Multivariate   c) Univariate   d) None
+19. Piecewise function means:
+    a) Defined for all x equally   b) Defined differently on intervals   c) Discontinuous   d) Undefined
+20. Continuous function has:
+    a) Breaks   b) Jumps   c) No breaks   d) Undefined parts
+21. Derivative of eˣ is:
+    a) x eˣ   b) eˣ   c) eˣ + 1   d) 1
+22. Product rule of derivatives is:
+    a) uv   b) u′v + uv′   c) u/v   d) u′ + v′
+23. Function f(x) = x² is:
+    a) One–one   b) Onto   c) Not one–one   d) Constant
+24. If a = {1, 2, 3}, number of relations on A is:
+    a) 3   b) 9   c) 512   d) 27
+25. f(x) = |x| is not differentiable at:
+    a) 1   b) 0   c) 2   d) None
+26. Equation x² + y² = 25 is:
+    a) Linear   b) Non-linear   c) Both   d) None
+27. The function f(x) = 5 is:
+    a) Constant   b) Linear   c) Quadratic   d) None
+28. The Cartesian product of ∅ and any set is:
+    a) ∅   b) {0}   c) Infinite   d) Undefined
+29. The derivative of tan(x) is:
+    a) sec²(x)   b) cos²(x)   c) −sin(x)   d) None
+30. The function f(x) = 1/x is discontinuous at:
+    a) x = 0   b) x = 1   c) x = −1   d) None
+
+--- ANSWERS (MCQs) ---
+1 b
+2 c
+3 b
+4 c
+5 c
+6 a
+7 b
+8 b
+9 c
+10 b
+11 b
+12 c
+13 b
+14 b
+15 c
+16 b
+17 c
+18 c
+19 b
+20 c
+21 b
+22 b
+23 c
+24 c
+25 b
+26 b
+27 a
+28 a
+29 a
+30 a
+
+
+------------------------------------------------------------
+✅ SECTION 3: TRUE / FALSE (30)
+------------------------------------------------------------
+
+1. Every relation is a function.
+2. Every function is a relation.
+3. If a function passes the vertical line test, it is a valid function.
+4. Composite function means addition of two functions.
+5. Inverse function reverses the input and output.
+6. Horizontal line test checks if function is one–one.
+7. Binary relation is subset of A × A.
+8. Derivative represents rate of change.
+9. Leibniz theorem is for definite integrals.
+10. Limit tells the value of function at a point.
+11. f(x) = 1/x is continuous at x = 0.
+12. f(x) = x² is continuous for all x.
+13. Bijective function is both one–one and onto.
+14. Linear equation has power more than 1.
+15. Non-linear equation has degree 1.
+16. Equation x + y = 2 is bivariate.
+17. Empty set × any set = empty set.
+18. Piecewise function is defined by single rule.
+19. Continuous function has no breaks.
+20. Derivative of sin(x) = cos(x).
+21. Derivative of cos(x) = sin(x).
+22. Derivative of eˣ = eˣ.
+23. f(x) = |x| is differentiable at 0.
+24. Product rule formula: (uv)' = u'v + uv'.
+25. A constant function has slope = 0.
+26. Every onto function is bijective.
+27. f(x) = x³ is increasing everywhere.
+28. f(x) = x² is one–one.
+29. The inverse of y = x + 5 is y = x − 5.
+30. The derivative of xⁿ = n xⁿ⁻¹.
+
+--- ANSWERS (TRUE/FALSE) ---
+1. False
+2. True
+3. True
+4. False
+5. True
+6. True
+7. True
+8. True
+9. False
+10. True
+11. False
+12. True
+13. True
+14. False
+15. False
+16. True
+17. True
+18. False
+19. True
+20. True
+21. False
+22. True
+23. False
+24. True
+25. True
+26. False
+27. True
+28. False
+29. True
+30. True
+------------------------------------------------------------

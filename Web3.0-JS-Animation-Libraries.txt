@@ -1,0 +1,89 @@
+
+^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^
+
+// eslint-disable-next-line
+
+React/Next Animation Libraries
+
+magic ui
+material ui
+ant design 
+scroll.locomotive.ca
+framer motion
+gsap
+medium-zoom
+Aceternity UI
+preline
+twilwind stamp
+material-tailwind/react
+flowbite
+Mamba UI
+kutty
+barba.js
+sentry
+shadcn UI
+chakra UI 
+
+^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^
+
+CD09A6EH
+
+// for react/Next 
+
+npm install lottie --> npm i --save-dev @types/react-lottie
+npm install react-icons
+npm install react-leaflet leaflet --for location
+npm install locomotive-scroll
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+npm install @tabler/icons-react
+npm install @mui/material @emotion/react @emotion/styled @fontsource/roboto @mui/icons-material
+
+npm i @headlessui/react
+npm i react-hot-toast
+npm i react-datepicker
+npm install date-fns
+npm i preline
+npm i @material-tailwind/react
+npm i aos
+npm install @dnd-kit/core
+
+react-fullscreen-image
+
+react-notifications
+capitalize-the-first-letter
+dayjs
+moment
+chart.js
+
+
+^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____
+
+transition delay-150 duration-250 ease-in-out hover:scale-90
+mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed
+
+
+text-shadow-white text-shadow-sm
+ shadow-sm  shadow-black
+drop-shadow-xs drop-shadow-black
+  backdrop-blur-xs
+bg-gradient-to-t  from-green-400 via-blue-400  to-transparent from-[0%] via-[10%]
+bg-gradient-to-r from-transparent via-indigo-500 to-transparent
+32361055pakistanD@arkprince
+^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^^_____^
+
+jo dependency install hony mein Error de rahi hon 
+usy is command ke through install kiya ja sakta hai 👇🏻
+
+npm [denpendencyName e.g {kutty}]--legacy-peer-deps
+npm install [denpendencyName e.g {kutty}] --force
+
+
+
+debounce
+dmorgans
+
+
+
+
