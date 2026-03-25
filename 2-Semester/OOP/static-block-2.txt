@@ -1,0 +1,16 @@
+//BSE-2A/2B/2C
+public class staticBlock {
+    
+    static { //1st block
+        System.out.println("Executes First");
+    }
+
+    public static void main(String[] args) {
+        System.out.println("In the Main() method");
+    }
+    
+    static { //2nd block
+        System.out.println("Executes Second");
+    }
+
+}

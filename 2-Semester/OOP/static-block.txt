@@ -1,0 +1,18 @@
+//BSE-2A/2B/2C 
+class Config {
+    // static field
+    static String appName;
+
+    // static block initializes static field
+    static {
+        appName = "My Java App";
+        System.out.println("Static block executed: appName initialized");
+    }
+}
+
+public class StaticBlockDemo {
+    public static void main(String[] args) {
+        // accessing static field
+        System.out.println("Application Name: " + Config.appName);
+    }
+}

@@ -1,0 +1,17 @@
+//BSE-2A/2B/2C 
+class Outer {
+    // static nested class
+    static class Nested {
+        void showMessage() {
+            System.out.println("Hello from static nested class!");
+        }
+    }
+}
+
+public class StaticNestedClassDemo {
+    public static void main(String[] args) {
+        // creating object of static nested class without Outer object
+        Outer.Nested nestedObj = new Outer.Nested();
+        nestedObj.showMessage();
+    }
+}

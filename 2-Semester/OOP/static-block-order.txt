@@ -1,0 +1,41 @@
+//BSE-2A/2B/2C
+class Demo {
+    // static field
+    static int number;
+
+    // static method
+    static void showMessage() {
+        System.out.println("Hello from static method showMessage()");
+    }
+
+    // non-static method
+    void greet() {
+        System.out.println("Hello from non-static method greet()");
+    }
+
+    // static block
+    static {
+        System.out.println("Static block executed.");
+
+        // initializing static field
+        number = 200;
+        System.out.println("Static field initialized to: " + number);
+
+        // calling static method directly
+        showMessage();
+
+        // calling non-static method by creating an object
+        Demo obj = new Demo();
+        obj.greet();
+    }
+}
+
+public class StaticBlockTest {
+    public static void main(String[] args) {
+        // Force Demo class to load immediately
+        System.out.println("Accessing Demo.number: " + Demo.number);
+
+        // Now continue with main logic
+        System.out.println("Main method executed.");
+    }
+}

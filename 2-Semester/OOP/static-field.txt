@@ -1,0 +1,22 @@
+//BSE-2A/2B/2C 
+class Counter {
+    // static field shared by all objects
+    static int count = 0;
+
+    // constructor increments the static field
+    Counter() {
+        count++;
+    }
+}
+
+public class StaticFieldDemo {
+    public static void main(String[] args) {
+        // creating objects
+        Counter c1 = new Counter();
+        Counter c2 = new Counter();
+        Counter c3 = new Counter();
+
+        // printing static field (same for all objects)
+        System.out.println("Number of objects created: " + Counter.count);
+    }
+}

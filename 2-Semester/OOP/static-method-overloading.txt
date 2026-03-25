@@ -1,0 +1,26 @@
+//BSE-2A/2B/2C 
+class Calculator {
+    // static method with one parameter
+    static int add(int a) {
+        return a + 10; // adds 10 to the given number
+    }
+
+    // static method with two parameters (overloaded)
+    static int add(int a, int b) {
+        return a + b; // adds two numbers
+    }
+
+    // static method with three parameters (overloaded)
+    static int add(int a, int b, int c) {
+        return a + b + c; // adds three numbers
+    }
+}
+
+public class StaticOverloadingDemo {
+    public static void main(String[] args) {
+        // calling different overloaded static methods
+        System.out.println("add(5): " + Calculator.add(5));
+        System.out.println("add(5, 7): " + Calculator.add(5, 7));
+        System.out.println("add(1, 2, 3): " + Calculator.add(1, 2, 3));
+    }
+}

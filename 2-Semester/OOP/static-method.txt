@@ -1,0 +1,15 @@
+//BSE-2A/2B/2C 
+class MathUtil {
+    // static method can be called without creating an object
+    static int square(int x) {
+        return x * x;
+    }
+}
+
+public class StaticMethodDemo {
+    public static void main(String[] args) {
+        // calling static method directly using class name
+        int result = MathUtil.square(5);
+        System.out.println("Square of 5 is: " + result);
+    }
+}
