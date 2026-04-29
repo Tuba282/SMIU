@@ -1,0 +1,25 @@
+// Define custom exception class extending Exception
+class MyException extends Exception {
+    public MyException(String message) {
+        super(message); // Pass message to parent Exception class
+    }
+}
+
+public class CustomExceptionExample {
+    // Method that validates number
+    public static void validate(int number) throws MyException {
+        if (number < 0) { // Condition for invalid input
+            throw new MyException("Number cannot be negative."); // Throw custom exception
+        }
+        System.out.println("Valid number: " + number); // Executes if input is valid
+    }
+
+    public static void main(String[] args) {
+        try {
+            validate(-5); // Call method with invalid input
+        } 
+        catch (MyException e) {
+            System.out.println("Caught custom exception: " + e.getMessage()); // Handle custom exception
+        }
+    }
+}

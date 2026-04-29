@@ -1,0 +1,16 @@
+public class ThrowsExample {
+    // Method declares it may throw InterruptedException
+    public static void riskyMethod() throws InterruptedException {
+        Thread.sleep(1000); // Pauses program for 1 second
+    }
+
+    public static void main(String[] args) {
+        try {
+            riskyMethod(); // Call method that may throw exception
+            System.out.println("Method executed successfully.");
+        } 
+        catch (InterruptedException e) {
+            System.out.println("Caught exception: " + e.getMessage()); // Handles checked exception
+        }
+    }
+}

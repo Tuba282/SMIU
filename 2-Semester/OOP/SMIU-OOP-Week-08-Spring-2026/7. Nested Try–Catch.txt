@@ -1,0 +1,20 @@
+public class NestedTryCatchExample {
+    public static void main(String[] args) {
+        try {
+            // Inner try block
+            try {
+                int result = 10 / 0; // Division by zero
+            } 
+            catch (ArithmeticException e) {
+                System.out.println("Inner catch: " + e.getMessage()); // Handles arithmetic error
+            }
+
+            int[] arr = new int[2]; // Array of size 2
+            System.out.println(arr[5]); // Invalid index → ArrayIndexOutOfBoundsException
+        } 
+        // Outer catch block
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Outer catch: " + e.getMessage()); // Handles array error
+        }
+    }
+}

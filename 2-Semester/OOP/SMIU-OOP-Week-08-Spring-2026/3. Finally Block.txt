@@ -1,0 +1,14 @@
+public class FinallyExample {
+    public static void main(String[] args) {
+        try {
+            int result = 20 / 2; // Valid division
+            System.out.println("Result: " + result); // Prints 10
+        } 
+        catch (Exception e) {
+            System.out.println("Error: " + e.getMessage()); // Handles any exception
+        } 
+        finally {
+            System.out.println("This block always executes."); // Runs no matter what
+        }
+    }
+}

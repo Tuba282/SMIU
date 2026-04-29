@@ -1,0 +1,15 @@
+public class ThrowExample {
+    public static void main(String[] args) {
+        try {
+            checkAge(15);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    static void checkAge(int age) throws Exception {
+        if (age < 18) {
+            throw new Exception("To use social media, age must be 18 or older.");
+        }
+    }
+}

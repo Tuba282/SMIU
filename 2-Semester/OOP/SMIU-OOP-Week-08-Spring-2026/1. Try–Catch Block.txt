@@ -1,0 +1,13 @@
+public class TryCatchExample {
+    public static void main(String[] args) {
+        // Start of try block: risky code goes here
+        try {
+            int result = 10 / 0; // Division by zero will cause ArithmeticException
+            System.out.println("Result: " + result); // This line won't execute
+        } 
+        // Catch block: handles ArithmeticException
+        catch (ArithmeticException e) {
+            System.out.println("Caught an exception: " + e.getMessage()); // Prints exception message
+        }
+    }
+}

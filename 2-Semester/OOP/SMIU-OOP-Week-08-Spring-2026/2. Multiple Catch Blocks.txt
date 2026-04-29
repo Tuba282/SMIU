@@ -1,0 +1,16 @@
+public class MultipleCatchExample {
+    public static void main(String[] args) {
+        try {
+            int[] numbers = {1, 2, 3}; // Array with 3 elements
+            System.out.println(numbers[5]); // Accessing invalid index → ArrayIndexOutOfBoundsException
+        } 
+        // First catch block: handles arithmetic errors
+        catch (ArithmeticException e) {
+            System.out.println("Arithmetic error: " + e.getMessage());
+        } 
+        // Second catch block: handles array index errors
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array error: " + e.getMessage());
+        }
+    }
+}
