@@ -23,7 +23,7 @@ public class LoginPanel extends JPanel {
 
         JLabel subLabel = new JLabel("Please enter your PIN", SwingConstants.CENTER);
         subLabel.setFont(StyleConstants.FONT_BODY);
-        subLabel.setForeground(StyleConstants.COLOR_TEXT);
+        subLabel.setForeground(new Color(0, 200, 83));
         add(subLabel, gbc);
 
         pinField = new JPasswordField();
@@ -36,14 +36,34 @@ public class LoginPanel extends JPanel {
         pinField.setFont(new Font("Monospaced", Font.BOLD, 24));
         add(pinField, gbc);
 
-        JButton loginButton = new JButton("Login");
+        Color GREEN = new Color(0, 200, 83);
+
+        JButton loginButton = new JButton("LOGIN");
         loginButton.setFont(StyleConstants.FONT_BUTTON);
-        loginButton.setBackground(StyleConstants.COLOR_PRIMARY);
-        loginButton.setForeground(Color.WHITE);
+        loginButton.setBackground(Color.BLACK);
+        loginButton.setForeground(GREEN);
         loginButton.setFocusPainted(false);
-        loginButton.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
+        loginButton.setOpaque(true);
+        loginButton.setContentAreaFilled(true);
+        loginButton.setBorder(BorderFactory.createCompoundBorder(
+            BorderFactory.createLineBorder(GREEN, 2),
+            BorderFactory.createEmptyBorder(10, 20, 10, 20)
+        ));
         loginButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
         loginButton.addActionListener(e -> handleLogin());
+
+        // Hover effect: green bg + black text
+        loginButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent e) {
+                loginButton.setBackground(GREEN);
+                loginButton.setForeground(Color.BLACK);
+            }
+            public void mouseExited(java.awt.event.MouseEvent e) {
+                loginButton.setBackground(Color.BLACK);
+                loginButton.setForeground(GREEN);
+            }
+        });
+
         add(loginButton, gbc);
 
         statusLabel = new JLabel(" ", SwingConstants.CENTER);
@@ -56,9 +76,9 @@ public class LoginPanel extends JPanel {
         if (enteredPin.equals(app.getDataManager().getPin())) {
             statusLabel.setText(" ");
             pinField.setText("");
-            app.showScreen("DASHBOARD");
+            app.showScreen("LOADING");   // → Loading → Role Select → Role Password → Dashboard
         } else {
-            statusLabel.setText("Invalid PIN! Try 1234");
+            statusLabel.setText("❌  Wrong PIN! Please try again.");
         }
     }
 }
